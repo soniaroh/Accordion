@@ -19,7 +19,7 @@ export const fetchData = () => async dispatch => {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts');
     const json = await response.json();
     console.log('json', json)
-    dispatch(fetchSuccess(json.slice(0,10)));
+    dispatch(fetchSuccess(json));
 
   } catch(err) {
     dispatch(fetchError())
