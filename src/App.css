@@ -1,0 +1,25 @@
+.App {
+  width: 90%;
+  margin: 2%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.post {
+  height: relative;
+  width: 70%;
+  text-align: left;
+}
+
+.icon {
+  cursor: pointer;
+  width: 5%;
+  float: right;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
